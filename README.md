@@ -23,7 +23,7 @@ R-CNN, SPEANet achieves 78.55% mAP on DOTA-v1.0,
 total parameters, of which 5.97M belong to the backbone.
 
 ## Pretrained Weights of Backbone
-Imagenet 300-epoch pre-trained SPEANet backbone: [Download](https://pan.baidu.com/s/1aodPs8OmwKYcnC9fENfehA?pwd=0417)
+Imagenet 300-epoch pre-trained SPEANet backbone: [Download](https://github.com/Loveback417/SPEANet/releases/download/weight/speanet_s_img_meet_179_71_00_clean.pth)
 
 ## Results
 
@@ -31,20 +31,20 @@ DOTA-v1.0
 
 |           Backbone           |  Detector  |  Parameter  | mAP  | Angle | lr schd |      Aug      |                    Batch Size                    | Configs                                                                               |                    Weights                    |
 |:----------------------------:|:-----:|:-----:|:-----:|:-----:| :-----: |:-------------:|:------------------------------------------------:|:--------------------------------------------------------------------------------------|:-------------:|
-| SPEANet <br> (1024,1024,200) | 	Oriented R-CNN | 23.0M | 78.55 | le90  |   3x    | single scale  | 8<br/>(2&nbsp;gpus&nbsp;*&nbsp;4&nbsp;imgs/gpu)  | [orcnn_speanet_dota10_ss_le90_e36.py](./configs/orcnn_speanet_dota10_ss_le90_e36.py)  | [model](https://pan.baidu.com/s/1Wx555GJT9gBi5LgLiyufeA?pwd=0417)|
-| SPEANet <br> (1024,1024,200) |S2ANet | 14.0M | 78.16 | le135 |   3x    | single scale  | 16<br/>(2&nbsp;gpus&nbsp;*&nbsp;8&nbsp;imgs/gpu) | [s2anet_speanet_dota10_ss_le135_e36.py](./configs/s2anet_speanet_dota10_ss_le135_e36.py)  | [model](https://pan.baidu.com/s/1pLxqWNJuI5X4FonompAatA?pwd=0417)|
+| SPEANet <br> (1024,1024,200) | 	Oriented R-CNN | 23.0M | 78.55 | le90  |   3x    | single scale  | 8<br/>(2&nbsp;gpus&nbsp;*&nbsp;4&nbsp;imgs/gpu)  | [orcnn_speanet_dota10_ss_le90_e36.py](./configs/orcnn_speanet_dota10_ss_le90_e36.py)  | [model](https://github.com/Loveback417/SPEANet/releases/download/weight/orcnn_speanet_dota10_ss_le90.pth)|
+| SPEANet <br> (1024,1024,200) |S2ANet | 14.0M | 78.16 | le135 |   3x    | single scale  | 16<br/>(2&nbsp;gpus&nbsp;*&nbsp;8&nbsp;imgs/gpu) | [s2anet_speanet_dota10_ss_le135_e36.py](./configs/s2anet_speanet_dota10_ss_le135_e36.py)  | [model](https://github.com/Loveback417/SPEANet/releases/download/weight/s2anet_speanet_dota10_ss_le135.pth)|
 
 DOTA-v1.5
 
 |           Backbone           | Detector  |  Parameter  |  mAP  | Angle | lr schd |     Aug      |      Batch Size       | Configs                                                                              |  Weight                    |
 |:----------------------------:|:-----:| :---: |:-----:| :---: | :-----: |:------------:|:---------------------:|:-------------------------------------------------------------------------------------|:---: |
-| SPEANet <br> (1024,1024,200) | Oriented R-CNN | 23.0M | 72.24 | le90  |   3x    | single scale | 8<br/>(2&nbsp;gpus&nbsp;*&nbsp;4&nbsp;imgs/gpu) | [orcnn_speanet_dota15_ss_le90_e36.py](./configs/orcnn_speanet_dota15_ss_le90_e36.py) | [model](https://pan.baidu.com/s/1fbRmUQRsHzLZ--EdFa3W1A?pwd=0417) | 
+| SPEANet <br> (1024,1024,200) | Oriented R-CNN | 23.0M | 72.24 | le90  |   3x    | single scale | 8<br/>(2&nbsp;gpus&nbsp;*&nbsp;4&nbsp;imgs/gpu) | [orcnn_speanet_dota15_ss_le90_e36.py](./configs/orcnn_speanet_dota15_ss_le90_e36.py) | [model](https://github.com/Loveback417/SPEANet/releases/download/weight/orcnn_speanet_dota15_ss_le90.pth) | 
 
 DIOR-R
 
 |        Backbone         | Detector  |  Parameter  | AP50  | Angle | lr schd |     Aug      |                    Batch Size                    |                                             Configs                                              |  Weight                    |
 |:-----------------------:|:-----:| :---: |:-----:| :---: | :-----: |:------------:|:------------------------------------------------:|:------------------------------------------------------------------------------------------------:|:---: |
-| SPEANet <br> (800, 800) | Oriented R-CNN | 23.0M | 67.30 | le90  |   3x    | single scale | 16<br/>(2&nbsp;gpus&nbsp;*&nbsp;8&nbsp;imgs/gpu) |       [orcnn_speanet_dior_r_ss_le90_e36.py](./configs/orcnn_speanet_dior_r_ss_le90_e36.py)   | [model](https://pan.baidu.com/s/1-EtDNN4QySVXYBKUSu3I3A?pwd=0417) | 
+| SPEANet <br> (800, 800) | Oriented R-CNN | 23.0M | 67.30 | le90  |   3x    | single scale | 16<br/>(2&nbsp;gpus&nbsp;*&nbsp;8&nbsp;imgs/gpu) |       [orcnn_speanet_dior_r_ss_le90_e36.py](./configs/orcnn_speanet_dior_r_ss_le90_e36.py)   | [model](https://github.com/Loveback417/SPEANet/releases/download/weight/orcnn_speanet_diorr_ss_le90.pth) | 
 
 
 Train
