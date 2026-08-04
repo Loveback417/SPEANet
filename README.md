@@ -3,7 +3,7 @@ This is the official Pytorch/Pytorch implementation of the papers: <br>
 
 > Wei Lu, Junjie Li, Feifei Sang, Si-Bao Chen* <br>
 > Submitted to AAAI 2027 <br>
-> [[*paper*](https://openreview.net/attachment?id=r9bTsBGpHw&name=pdf)] <br>
+> [[*paper*](https://openreview.net/forum?id=r9bTsBGpHw)] <br>
 
 <!-- [ALGORITHM] -->
 
