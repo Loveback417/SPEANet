@@ -1,0 +1,6 @@
+# These must be installed before building mmrotate
+cython
+numpy
+timm==1.0.22
+mmsegmentation==1.2.2
+mmdet==3.3.0

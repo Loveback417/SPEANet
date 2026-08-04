@@ -1,0 +1,6 @@
+e2cnn
+mmcv>2.0.0rc4, <=2.2.0
+mmdet>3.0.0rc6, <3.4.0
+mmengine
+torch
+torchvision

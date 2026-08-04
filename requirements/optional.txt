@@ -1,0 +1,6 @@
+imagecorruptions
+scikit-learn
+scipy
+einops
+hilbertcurve
+psutil
