@@ -33,7 +33,6 @@ DOTA-v1.0
 |:----------------------------:|:-----:|:-----:|:-----:|:-----:| :-----: |:-------------:|:------------------------------------------------:|:--------------------------------------------------------------------------------------|:-------------:|
 | SPEANet <br> (1024,1024,200) | 	Oriented R-CNN | 23.0M | 78.55 | le90  |   3x    | single scale  | 8<br/>(2&nbsp;gpus&nbsp;*&nbsp;4&nbsp;imgs/gpu)  | [orcnn_speanet_dota10_ss_le90_e36.py](./configs/orcnn_speanet_dota10_ss_le90_e36.py)  | [model](https://pan.baidu.com/s/1Wx555GJT9gBi5LgLiyufeA?pwd=0417)|
 | SPEANet <br> (1024,1024,200) |S2ANet | 14.0M | 78.16 | le135 |   3x    | single scale  | 16<br/>(2&nbsp;gpus&nbsp;*&nbsp;8&nbsp;imgs/gpu) | [s2anet_speanet_dota10_ss_le135_e36.py](./configs/s2anet_speanet_dota10_ss_le135_e36.py)  | [model](https://pan.baidu.com/s/1pLxqWNJuI5X4FonompAatA?pwd=0417)|
- |
 
 DOTA-v1.5
 
