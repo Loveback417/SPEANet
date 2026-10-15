@@ -2,7 +2,7 @@ This is the official Pytorch/Pytorch implementation of the papers: <br>
 # SPEANet: Structural Prior Enhanced Attention Network for Parameter-Efficient Remote Sensing Object Detection
 
 > Wei Lu, Junjie Li, Feifei Sang, Si-Bao Chen* <br>
-> (https://arxiv.org/abs/2609.26064)
+> https://arxiv.org/abs/2609.26064
 <!-- [ALGORITHM] -->
 
 ## Abstract
